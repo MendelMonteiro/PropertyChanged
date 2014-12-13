@@ -1,5 +1,8 @@
-﻿namespace PropertyChangedIssues
+﻿using PropertyChanged;
+
+namespace PropertyChangedIssues
 {
+//    [DoNotNotify]
     partial class Class1
     {
         public int CalledProperty1OnChangedMethod { get; private set; }
